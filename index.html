@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Age calculator app</title>
+
+</head>
+<body>
+  
+    <div class="main">
+        <div class="entry">
+        <p class="i" id="i1">DAY</p>
+        <p class="i" id="i2">MONTH</p>
+        <p class="i" id="i3">YEAR</p>
+        <input type="text" class="j" id="j1" placeholder="DD">
+        <input type="text" class="j" id="j2" placeholder="MM">
+        <input type="text" class="j" id="j3" placeholder="YYYY">
+        <p class="k" id="k1"></p>
+        <p class="k" id="k2"></p>
+        <p class="k" id="k3"></p>
+        </div>
+
+        <div class="buffer">
+          <div class="line">
+              <div class="l1"></div>
+          </div>
+          <button class="b1" onclick="inputData();"><svg class="image1" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+        </div>
+
+        <div class="ageDisplay">
+          <div class="years" id="dis"><div class="years1" id="dis1">-&nbsp;-&nbsp;</div>  years</div>
+          <div class="months" id="dis"><div class="months1" id="dis1">-&nbsp;-&nbsp;</div>  months</div>
+          <div class="days" id="dis"><div class="days1" id="dis1">-&nbsp;-&nbsp</div>days</div>
+        </div>
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
