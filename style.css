@@ -32,7 +32,7 @@ body{
 .main{
     margin-left: 10px;
     margin-right: 10px;
-    height: 70vh;
+    height: 83vh;
     width: 70vb;
     background-color: #FFFFFF;
     border-top-right-radius: 17px;
@@ -117,7 +117,7 @@ body{
     flex-direction: column;
     background-color: #FFFFFF;
     width: 85%;
-
+    background: none;
 }
 #dis{
     background-color: #FFFFFF;
